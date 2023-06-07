@@ -141,11 +141,12 @@
 	.seccion-uno {
 		display: flex;
 		flex-wrap: wrap-reverse;
-		justify-content: space-around;
+		justify-content: center;
 	  }
 	.imagen {
 		margin-top: 0%;
 		width: auto;
+		margin-left: 5vw;
 	
 	  }
 	.contenedor-textos {
@@ -169,15 +170,15 @@
 	  .texto-grande {
 		font-size: 6vw;
 		width: 70vw;
+		text-align: center;
 
 	  }
 	
 	  .texto-corto {
-		font-size: 2.5vw;
-		width: 60vw;
+		font-size: 3.2vw;
+		width: 80vw;
 		position:absolute;
 		top:30%;
-		left: 5%;
 	  }
 	  .texto_donar{
 		font-size: 2vw;
@@ -190,19 +191,18 @@
 		width: 17vw;
 		height: 62px;
 		position: absolute;
-		top: 83%;
+		top: 95%;
 		transform: translateX(-50%);
 		border-radius: 5px;
 		bottom: 0%;
 		left: 0%;
 		margin-left: 30%;
-		top: 73%;
 
 	
 	}
 	.btn_contactar{
 		position: absolute;
-		top: 73%;
+		top: 95%;
 		margin-left: 20%;
 	}
 
