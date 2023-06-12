@@ -4,3 +4,20 @@
 
 }
 
+@media (max-width: 1000px) {
+ 
+
+    .navbar-brand,
+    .navbar-nav .nav-link {
+        font-size: 4vw; /* Ajusta el tamaño de fuente según tus necesidades */
+        text-align: center;
+    }
+  
+    .nav-item {
+        margin-top: 2vw; /* Ajusta el margen vertical según tus necesidades */
+        margin-bottom: 3vw; /* Ajusta el margen vertical según tus necesidades */
+    }
+    .container-fluid{
+        margin: 2vw;
+    }
+}
