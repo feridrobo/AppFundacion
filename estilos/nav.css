@@ -21,7 +21,9 @@
         margin: 20px;
     }
     #hoja{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
+        background-image: url("ruta/a/la/imagen-de-hoja-240x240.png");
+        background-size: cover;
     }
 }
