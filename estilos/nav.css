@@ -4,7 +4,13 @@
 
 }
 
-@media (max-width: 1000px) {
+#hoja{
+    height: 25px;
+    width: 25px;
+
+}
+
+@media (max-width: 990px) {
  
 
     .dropdown-item, .navbar-brand,
