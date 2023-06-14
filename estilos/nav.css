@@ -29,7 +29,7 @@
         text-align: center;
     }
   
-    .nav-item {
+    .dropdown-item, .nav-item {
         margin-top: 2vw; /* Ajusta el margen vertical según tus necesidades */
         margin-bottom: 3vw; /* Ajusta el margen vertical según tus necesidades */
     }
