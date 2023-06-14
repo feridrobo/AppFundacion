@@ -1,6 +1,11 @@
+
 .navbar{
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(260deg, #0F68F2 0%, #77D1CD 100%);
+
+} .dropdown-menu{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(260deg, #77D1CD 0%, #0F68F2 100%);
 
 }
 
@@ -30,5 +35,10 @@
         height: 70px;
         width: 70px;
 
+    }
+    .dropdown-menu{
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(260deg, #0F68F2 0%, #77D1CD 100%);
+    
     }
 }
