@@ -3,7 +3,8 @@
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(260deg, #0F68F2 0%, #77D1CD 100%);
 
-} .dropdown-menu{
+}
+.dropdown-menu{
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(260deg, #77D1CD 0%, #0F68F2 100%);
 
@@ -16,7 +17,11 @@
 }
 
 @media (max-width: 990px) {
- 
+    .dropdown-menu{
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(260deg, #0F68F2 0%, #77D1CD 100%);
+    
+    }
 
     .dropdown-item, .navbar-brand,
     .navbar-nav .nav-link {
@@ -36,9 +41,5 @@
         width: 70px;
 
     }
-    .dropdown-menu{
-        font-family: 'Poppins', sans-serif;
-        background: linear-gradient(260deg, #0F68F2 0%, #77D1CD 100%);
-    
-    }
+ 
 }
