@@ -159,6 +159,7 @@
 		align-items: center;
 		margin-right: 20%;
 
+
 	  }
 	  .contenedor-logo {
 		width: 32rem;
@@ -181,36 +182,41 @@
 		width: 80vw;
 		position:absolute;
 		top:30%;
+		margin-top: 5vw;
 	  }
 	  .texto_donar{
-		font-size: 2vw;
-		left: 7px;
+		font-size: 3vw;
+		left: 25px;
+		top:4px
 		
 	  }
 	
 	  .btn_donar {
 		background-color: #77d1cd;
-		width: 17vw;
-		height: 62px;
+		width: 27vw;
+		height: 82px;
 		position: absolute;
-		top: 95%;
+		top: 92%;
 		transform: translateX(-50%);
 		border-radius: 5px;
 		bottom: 0%;
 		left: 0%;
-		margin-left: 30%;
+		margin-left: 40%;
 
 	
 	}
 	.btn_contactar{
 		position: absolute;
-		top: 95%;
-		margin-left: 20%;
+		top: 92%;
+		margin-left: 42%;
+		width: 27vw;
+		height: 82px;
 	}
 
 .texto-contactar {
-	font-size: 2vw;
-
+	font-size: 3vw;
+	left: 35px;
+	top:4px
 }
 
 	  
