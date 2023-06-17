@@ -4,6 +4,8 @@
 	justify-content: space-around;
 	margin-top: 5vw;
   }
+
+
   
   .contenedor-textos {
 	display: flex;
@@ -21,7 +23,6 @@
 	height: 34rem;
 	position: relative;
 	margin: 10px;
-	margin-right: 6%;
   }
   
   .texto-grande {
