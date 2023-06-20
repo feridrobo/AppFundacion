@@ -1,0 +1,31 @@
+.titulo-container {
+    font-size: 3em;
+  }
+
+  .img-container{
+    max-width: 70%;
+  }
+  
+  .parrafo-container {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #707070;
+  }
+  /* Media Query para pantallas de tamaño máximo de 768px */
+  @media (max-width: 1000px) {
+    .titulo-container {
+        font-size: 3.5em;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .parrafo-container {
+      font-size: 1.8em;
+      margin-top: 30px;
+    }
+    .img-container{
+        max-width: 85%;
+      }
+      
+  }
+  
