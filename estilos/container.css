@@ -11,8 +11,16 @@
     margin-top: 20px;
     color: #707070;
   }
+  #textos-izquierda{
+    margin-left: 50vw;
+
+  }
   /* Media Query para pantallas de tamaño máximo de 768px */
   @media (max-width: 1000px) {
+    #textos-izquierda{
+        margin-right: 0;
+    
+      }
     .titulo-container {
         font-size: 3.5em;
       text-align: center;
