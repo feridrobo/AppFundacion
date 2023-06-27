@@ -37,3 +37,22 @@
     padding: 80px 0;
     text-align: center;
   }
+
+
+  @media (max-width: 1000px) {
+.parallax-header{
+margin-top: 13vw;
+}
+
+.parallax-header .parallax-content{
+  padding-top:8vw;
+}
+.textos-introduccion{
+  padding-top:3vw;
+  font-family: Poppins;
+  font-size: 3.2vw;
+
+}
+
+  }
+
