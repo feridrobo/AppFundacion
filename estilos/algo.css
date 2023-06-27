@@ -160,7 +160,7 @@
 		align-items: center;
 		margin-right: 20%;
 
-
+margin-bottom: 0vw;
 	  }
 	  .contenedor-logo {
 		width: 32rem;
@@ -223,3 +223,15 @@
 	  
   }
   
+  @media (max-width: 1000px) {
+	.contenedor-logo{
+		margin-top: 15vw;
+		margin-left: 27%;
+		margin-bottom: 1vw;
+	}
+	.contenedor-textos {
+
+		margin-left: 15%;
+
+
+	  }}

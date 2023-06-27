@@ -42,10 +42,11 @@
   @media (max-width: 1000px) {
 .parallax-header{
 margin-top: 13vw;
+height: 38vw;
 }
 
 .parallax-header .parallax-content{
-  padding-top:8vw;
+  padding-top:5vw;
 }
 .textos-introduccion{
   padding-top:3vw;
@@ -53,6 +54,7 @@ margin-top: 13vw;
   font-size: 3.2vw;
 
 }
+
 
   }
 
