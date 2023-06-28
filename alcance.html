@@ -26,6 +26,7 @@
      crossorigin="anonymous"></script>
      <link href="./estilos/style.css" rel="stylesheet">
      <link href="./estilos/container.css" rel="stylesheet">
+     <link href="./estilos/introduccion.css" rel="stylesheet">
 
     </head>
 
@@ -86,57 +87,87 @@
 
 <!-- Navbar End -->
 
-<style>
-  .card {
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
 
-  .card-title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-  }
+<header class="parallax-header">
+  <div class="parallax-image" style="    background: url('./imagenes/alcance-header.jpg') center/cover no-repeat fixed;
+  "></div>
+  <div class="parallax-overlay"></div>
 
-  .card-text {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-  }
+  <div class="parallax-content container">
+      <span class="display-4 fw-semibold mb-3" style="font-family: Poppins;">Alcance</span>
+      <div class="d-flex justify-content-center">
+          <p class="lead" style="font-family: Poppins; color: #cccccc; max-width: 80%; margin-top: 25px;">El alcance de nuestro proyecto se extiende a nivel local y regional,
+             enfocándose en la mejora de la vida de los niños,
+             niñas, adolescentes y madres en situación de vulnerabilidad. Nuestro trabajo se lleva a cabo en diferentes comunidades y hogares de nuestro país, 
+            llegando a aquellos lugares donde se necesita nuestro apoyo de manera más urgente.</p>
+      </div>
+  </div>
+</header>
 
-  .card-img-top {
-    border-radius: 10px 10px 0 0;
-  }
-</style>
-</head>
-<body>
+<section class="jumbotron text-center py-5 ">
+  <div class="container">
+    <span class="display-4 fw-semibold mb-3" style="font-family: Poppins;">Nuestro compromiso con la comunidad
+
+    </span>
+    <div class="d-flex justify-content-center ">
+      <p class="lead text-muted" style="font-family: Poppins; color: #707070; max-width: 80%; margin-top: 25px;">En la Fundación Niños por la paz, tenemos como objetivo principal brindar una mano solidaria a aquellos que más lo necesitan. 
+        El alcance de nuestro proyecto se extiende a nivel local y regional, enfocándose en la mejora de la vida de los niños, niñas, adolescentes y madres en situación de vulnerabilidad. Nuestro trabajo se lleva a cabo en diferentes
+         comunidades y hogares de nuestro país, llegando a aquellos lugares donde se necesita nuestro apoyo de manera más urgente.</p>
+    </div>
+  </div>
+</section>
+
 
 <section class="container">
   <div class="row">
     <div class="col-lg-4">
       <div class="card">
-        <img src="imagen1.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="./imagenes/educacion.jpg" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Tarjeta 1</h5>
-          <p class="card-text">Contenido de la tarjeta 1.</p>
+          <h5 class="card-title">Educación</h5>
+          <p class="card-text">A través de programas educativos,
+             brindamos oportunidades para el desarrollo integral de los beneficiarios,
+              fomentando el acceso a una educación de calidad y promoviendo el aprendizaje
+               como herramienta para un futuro mejor.</p>
         </div>
       </div>
     </div>
     <div class="col-lg-4">
       <div class="card">
-        <img src="imagen2.jpg" class="card-img-top" alt="Imagen 2">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="./imagenes/deporte-alcance.jpg" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Tarjeta 2</h5>
-          <p class="card-text">Contenido de la tarjeta 2.</p>
+          <h5 class="card-title">Deporte</h5>
+          <p class="card-text"> Mediante actividades deportivas, buscamos promover la salud, 
+            el bienestar y la inclusión social de los niños, niñas y adolescentes en situación
+             de vulnerabilidad, proporcionándoles espacios seguros y 
+             motivadores para su crecimiento personal.</p>
         </div>
       </div>
     </div>
     <div class="col-lg-4">
       <div class="card">
-        <img src="imagen3.jpg" class="card-img-top" alt="Imagen 3">
+        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+          <img src="./imagenes/ludica.jpg" class="img-fluid"/>
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
         <div class="card-body">
-          <h5 class="card-title">Tarjeta 3</h5>
-          <p class="card-text">Contenido de la tarjeta 3.</p>
+          <h5 class="card-title">Salud y actividades lúdicas</h5>
+          <p class="card-text"> Nos preocupamos por el bienestar físico y emocional
+             de los beneficiarios, por lo que ofrecemos programas de salud y actividades 
+             lúdicas que les permiten disfrutar de su infancia y
+             fortalecer su capacidad de adaptación ante los desafíos.</p>
         </div>
       </div>
     </div>
